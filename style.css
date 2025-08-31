@@ -2,12 +2,13 @@
     font-family: myFirstFont;
     src: url(font/Futura\ Black.ttf);
 }
+
 @font-face {
     font-family: butler;
     src: url(font/Butler_Regular.otf);
 }
 
-*{
+* {
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -29,12 +30,12 @@ header {
     margin-left: 8%;
 }
 
-.logo-img{
+.logo-img {
     width: 165px;
     height: 75px;
 }
 
-.nav_bar{
+.nav_bar {
     min-width: 525px;
     display: flex;
     justify-content: space-evenly;
@@ -80,7 +81,7 @@ header {
     margin-left: -20px;
 }
 
-.order-btn-background{
+.order-btn-background {
     background: #FFFFFF;
 }
 
@@ -172,8 +173,8 @@ i {
     padding: 0 15px;
     display: flex;
     flex-direction: column;
-    justify-content:space-between;
-    align-items:center;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .card-img {
@@ -210,13 +211,13 @@ i {
 
 
 
-.frenchise-first-section{
+.frenchise-first-section {
     position: relative;
     background: rgba(255, 255, 255, 0.06);
     padding: 0 70px;
 }
 
-.franchise-home{
+.franchise-home {
     width: 1200px;
     height: 300px;
     display: flex;
@@ -227,7 +228,7 @@ i {
     padding-bottom: 40px;
 }
 
-.franchise-home-box{
+.franchise-home-box {
     width: 550px;
     /* color: #212529; */
     font: 16px;
@@ -236,7 +237,7 @@ i {
     /* background-color: #f18686; */
 }
 
-.franchise-home-box-content{
+.franchise-home-box-content {
     box-sizing: border-box;
     padding: 0;
     font-family: inter;
@@ -253,7 +254,7 @@ i {
     font-size: 48px;
 }
 
-small{
+small {
     font-family: 'apercu';
     font-style: normal;
     font-weight: 500;
@@ -315,7 +316,7 @@ small{
     margin-bottom: 10px;
 }
 
-.home-heading p a{
+.home-heading p a {
     font-family: 'Apercu';
     font-style: normal;
     font-weight: 400;
@@ -338,7 +339,7 @@ small{
     margin-top: 50px;
 }
 
-.bahawalpur-franchise-home{
+.bahawalpur-franchise-home {
     padding-bottom: 30px;
 }
 
@@ -351,8 +352,10 @@ small{
     justify-content: center;
 
     background-image: url(images/background/p.webp);
-    background-size: cover;   /* fills container & crops if needed */
-    background-position: center; /* centers the cropped part */
+    background-size: cover;
+    /* fills container & crops if needed */
+    background-position: center;
+    /* centers the cropped part */
     background-repeat: no-repeat;
 
     width: 100%;
@@ -365,7 +368,7 @@ small{
     width: 1150px;
 }
 
-.franchises_second-heading h2{
+.franchises_second-heading h2 {
     margin-top: 10px;
     font-family: butler;
     font-weight: 900;
@@ -379,7 +382,7 @@ small{
     flex-wrap: wrap;
 }
 
-.franchises_second_card{
+.franchises_second_card {
     width: 350px;
     height: 530px;
 
@@ -419,7 +422,7 @@ small{
     color: #FFFFFF;
 }
 
-.franchises_second-heading h3{
+.franchises_second-heading h3 {
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -460,15 +463,15 @@ small{
     background: rgba(255, 255, 255, 0.06);
 }
 
-.promotion-container-image{
+.promotion-container-image {
     height: 370px;
 }
 
-.promotion-section{
+.promotion-section {
     height: 620px;
 }
 
-.promotion-image{
+.promotion-image {
     width: 640px;
     height: 360px;
 }
@@ -483,7 +486,7 @@ small{
     border: 1px solid #28a745;
 }
 
-.promotion-btn:hover{
+.promotion-btn:hover {
     background: transparent;
     transition-duration: 0.3s;
 }
@@ -493,18 +496,18 @@ small{
 
 
 
-.franchises_express_section{
+.franchises_express_section {
     padding: 60px 0px 38px;
     position: relative;
     z-index: 11;
-    
+
     display: flex;
     justify-content: center;
 
     /* background-color: #28a745; */
 }
 
-.franchises_express_container{
+.franchises_express_container {
     width: 1140px;
     padding: 0 12px;
 
@@ -517,7 +520,7 @@ small{
     padding: 0;
 }
 
-.franchise_express_small{
+.franchise_express_small {
     font-style: normal;
     font-size: 26px;
     font-weight: bold;
@@ -536,7 +539,7 @@ small{
     /* background-color: #5d90e9; */
 }
 
-.franchise_express_card{
+.franchise_express_card {
     width: 308px;
     height: 180px;
     background: #FFFFFF;
@@ -559,10 +562,10 @@ small{
 
 }
 
-.franchise_express_card_content{
+.franchise_express_card_content {
     width: auto;
     height: 100px;
-    
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -605,7 +608,7 @@ small{
     background: #FFFFFF;
 }
 
-.insta_custom_section_main{
+.insta_custom_section_main {
     display: block;
     width: 100%;
     position: relative;
@@ -664,19 +667,19 @@ small{
     gap: 30px 45px;
 }
 
-.footer_data_box_detail{
+.footer_data_box_detail {
     color: #FFFFFF;
     font: 16px;
-    
+
 }
 
-.footer_detail_box_one{
+.footer_detail_box_one {
     display: flex;
     flex-direction: column;
     width: 100%;
 }
 
-.footer_logo{
+.footer_logo {
     margin: 0px auto 0px 0px;
     padding-bottom: 24px;
 
@@ -708,7 +711,7 @@ small{
     margin-right: 10px;
 }
 
-.info-useful-links li a{
+.info-useful-links li a {
     /* font-family: 'Apercu'; */
     font-style: normal;
     font-weight: 400;
@@ -774,7 +777,7 @@ small{
     margin: 0px !important;
 }
 
-.contact_heading{
+.contact_heading {
     margin-bottom: 0px !important;
     font-style: normal;
     font-weight: 700;
@@ -842,13 +845,13 @@ small{
 }
 
 .copyright_container {
-  /* position: absolute; */
-  bottom: 0;
-  left: 0;
-  right: 0;
-  display: flex;
-  justify-content: space-between;
-  padding: 10px 20px;
-  margin-left: 200px;
-  background: transparent;
+    /* position: absolute; */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    margin-left: 200px;
+    background: transparent;
 }
